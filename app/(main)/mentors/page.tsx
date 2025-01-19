@@ -68,10 +68,10 @@ const mentors: Mentor[] = [
   },
   {
     id: 6,
-    name: "Dr. Khalid Al-Mansouri",
+    name: "Dr. Maryam Al-Mansouri",
     title: "Biomedical Engineering Specialist",
     description: "Specialist in biomedical device design and regulatory approval processes. Provides mentorship in developing compliant and innovative medical devices.",
-    imageUrl: "https://images.unsplash.com/photo-1603415526960-f1853c84ae4c?w=400&h=400&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=400&fit=crop",
     specialty: "Biomedical Engineering",
     experience: "14+ years",
     availability: "Available"
