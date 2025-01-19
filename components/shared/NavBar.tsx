@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <div className="w-full h-16 bg-white border-b border-gray-200 px-6 flex items-center justify-between fixed top-0 z-[100]">
       <div className="flex ml-10 items-center gap-2">
-        <span className="text-xl font-bold text-blue-600">Helping Hands</span>
+        <span className="text-xl font-bold text-blue-600">Health Tech</span>
       </div>
 
       <div className="  ">

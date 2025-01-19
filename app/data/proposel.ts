@@ -17,6 +17,64 @@ interface Startup {
   }
   
   export const proposalsList: Proposal[] = [
+
+    {
+      id: 4,
+      title: "Mental Health Platform Scaling Initiative",
+      description: "Expanding our therapist network and implementing AI-driven matching algorithms to improve patient-therapist compatibility.",
+      startup: {
+        id: 4,
+        name: "TherapyConnect",
+        industry: "Mental Health",
+        imageUrl: "https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=500&h=300&fit=crop",
+      },
+      status: "Pending",
+      requestedFunding: "$400,000",
+      submittedDate: "2024-03-20",
+    },
+    {
+      id: 6,
+      title: "Advanced Health Monitoring and Preventive Care System",
+      description: "Scaling our IoT infrastructure and implementing advanced predictive analytics for better patient monitoring, early warning systems, and proactive preventive care.",
+      startup: {
+        id: 6,
+        name: "SmartCare Solutions",
+        industry: "Digital Health",
+        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=300&fit=crop",
+      },
+      status: "Approved",
+      requestedFunding: "$450,000",
+      submittedDate: "2024-03-12",
+    },
+    {
+      id: 7,
+      title: "Chronic Disease Management Platform Enhancement",
+      description: "Implementation of advanced health data analytics and remote monitoring technologies to improve chronic disease management and patient outcomes across the region.",
+      startup: {
+        id: 7,
+        name: "PharmaConnect",
+        industry: "Pharmaceuticals",
+        imageUrl: "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=500&h=300&fit=crop",
+      },
+      status: "Approved",
+      requestedFunding: "$850,000",
+      submittedDate: "2024-03-22",
+    },
+    
+    {
+      id: 5,
+      title: "AI Mental Health Assessment Tool Development",
+      description: "Development of advanced machine learning models for more accurate mental health assessments and personalized treatment recommendations.",
+      startup: {
+        id: 5,
+        name: "MentalHealth AI",
+        industry: "Mental Health",
+        imageUrl: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=500&h=300&fit=crop",
+      },
+      status: "Rejected",
+      requestedFunding: "$600,000",
+      submittedDate: "2024-03-05",
+    },
     {
       id: 1,
       title: "AI-Powered Medical Imaging Platform Enhancement",
@@ -59,62 +117,9 @@ interface Startup {
       requestedFunding: "$300,000",
       submittedDate: "2024-03-18",
     },
-    {
-      id: 4,
-      title: "Mental Health Platform Scaling Initiative",
-      description: "Expanding our therapist network and implementing AI-driven matching algorithms to improve patient-therapist compatibility.",
-      startup: {
-        id: 4,
-        name: "TherapyConnect",
-        industry: "Mental Health",
-        imageUrl: "https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=500&h=300&fit=crop",
-      },
-      status: "Pending",
-      requestedFunding: "$400,000",
-      submittedDate: "2024-03-20",
-    },
-    {
-      id: 5,
-      title: "AI Mental Health Assessment Tool Development",
-      description: "Development of advanced machine learning models for more accurate mental health assessments and personalized treatment recommendations.",
-      startup: {
-        id: 5,
-        name: "MentalHealth AI",
-        industry: "Mental Health",
-        imageUrl: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=500&h=300&fit=crop",
-      },
-      status: "Rejected",
-      requestedFunding: "$600,000",
-      submittedDate: "2024-03-05",
-    },
-    {
-      id: 6,
-      title: "IoT Healthcare Monitoring System Expansion",
-      description: "Scaling our IoT infrastructure and implementing advanced predictive analytics for better patient monitoring and early warning systems.",
-      startup: {
-        id: 6,
-        name: "SmartCare Solutions",
-        industry: "Digital Health",
-        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=300&fit=crop",
-      },
-      status: "Approved",
-      requestedFunding: "$450,000",
-      submittedDate: "2024-03-12",
-    },
-    {
-      id: 7,
-      title: "Blockchain Pharmaceutical Supply Chain Enhancement",
-      description: "Implementation of advanced blockchain technology to improve pharmaceutical supply chain transparency and expand counterfeit detection capabilities across the region.",
-      startup: {
-        id: 7,
-        name: "PharmaConnect",
-        industry: "Pharmaceuticals",
-        imageUrl: "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=500&h=300&fit=crop",
-      },
-      status: "Approved",
-      requestedFunding: "$850,000",
-      submittedDate: "2024-03-22",
-    },
+    
+  
+   
     {
       id: 8,
       title: "Healthcare Data Analytics Platform Expansion",
