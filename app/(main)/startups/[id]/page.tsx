@@ -2,14 +2,14 @@
 
 import { useParams } from "next/navigation";
 import Image from "next/image";
-import { startups } from "../page";
+import { startupsList } from "@/app/data/startups";
 import { MdBusiness, MdGroup, MdLocationOn } from "react-icons/md";
 
 const StartupDetails = () => {
   const params = useParams();
   const startupId = Number(params.id);
   
-  const startup = startups.find(s => s.id === startupId);
+  const startup = startupsList.find(s => s.id === startupId);
 
   if (!startup) {
     return (

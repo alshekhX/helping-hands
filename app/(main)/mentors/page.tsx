@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { proposals } from "../proposals/page";
+import { proposalsList } from "@/app/data/proposel";
 
 interface Mentor {
   id: number;
@@ -85,7 +85,7 @@ const Mentors = () => {
   const [selectedMentor, setSelectedMentor] = useState<Mentor | null>(null);
   const [selectedProposal, setSelectedProposal] = useState<number | null>(null);
 
-  const approvedProposals = proposals.filter(proposal => proposal.status === "Approved");
+  const approvedProposals = proposalsList.filter(proposal => proposal.status === "Approved");
 
   const specialties = ["All", ...new Set(mentors.map(mentor => mentor.specialty))];
 

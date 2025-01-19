@@ -3,14 +3,14 @@
 import { useState } from "react";
 import Image from "next/image";
 import { useParams } from "next/navigation";
-import { proposals } from "../page"; // Import proposals from the main proposals page
+import { proposalsList } from "@/app/data/proposel"; // Import proposals from the main proposals page
 
 const Proposal = () => {
   const params = useParams();
   const proposalId = Number(params.id);
   
   // Find the specific proposal from the proposals array
-  const proposalDetails = proposals.find(p => p.id === proposalId);
+  const proposalDetails = proposalsList.find(p => p.id === proposalId);
 
   const [showRejectionModal, setShowRejectionModal] = useState(false);
   const [rejectionReason, setRejectionReason] = useState("");
