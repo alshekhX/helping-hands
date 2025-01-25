@@ -7,7 +7,7 @@ import {
   MdBusinessCenter, 
   MdDescription,
   MdGroups,
-  MdAttachMoney 
+  MdAttachMoney,MdGroup
 } from "react-icons/md";
 
 const SideBar = () => {
@@ -38,6 +38,11 @@ const SideBar = () => {
       icon: <MdAttachMoney size={24} />,
       label: "Investors",
       href: "/investors",
+    },
+    {
+      icon: <MdGroup size={24} />,
+      label: "Community",
+      href: "/community",
     },
   ];
 
